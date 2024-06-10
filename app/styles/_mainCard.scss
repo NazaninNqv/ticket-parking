@@ -1,0 +1,44 @@
+.mainCard  {
+  border-bottom: blue;
+  display: block;
+  @apply border-solid border-2 border-black m-2;
+
+    .navbar{
+      @apply bg-gray-400 border-solid ;
+
+      .introduction {
+        @apply  text-center;
+      }
+      .topBar{
+        // padding: 0 12px;
+        @apply  flex  border-b-2 border-black;
+
+        .sign {
+          @apply flex justify-between; 
+          .back{
+
+          }
+          .next{
+  
+          }
+          .close{
+  
+          }
+          .home{
+  
+          }
+        }
+        .search{
+          @apply flex justify-between items-center;
+            >input {
+              height: 20px;
+              @apply items-center;
+            }
+          .logo{
+
+          }
+        }
+      }
+    }
+
+}
